@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    marginTop: 14,
+    marginTop: 15,
     marginBottom: 10,
     paddingVertical: 8,
     borderRadius: 20,
@@ -155,10 +155,10 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    borderRadius: 14,
+    borderRadius: 15 ,
   },
   textStyle: {
-    fontSize: 19,
+    fontSize: 20,
     marginLeft: 8,
     fontWeight: "bold",
     flex: 1,
@@ -205,7 +205,6 @@ const App = () => (
             sections={datasource}
             renderItem={renderItem}
             keyExtractor={(item) => item.key}
-            scrollEnabled={false}
             renderSectionHeader={({ section }) => (
                 <View
                     style={[
